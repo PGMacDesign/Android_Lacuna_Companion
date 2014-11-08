@@ -17,13 +17,14 @@
         <item >Web Links (Under Construction)</item>
         <item >Ships Guide (Under Construction)</item>
         <item >Buildings Guide (Under Construction)</item>
-        <item >Lookup Planet Information (Under Construction)</item>
+        <item >Lookup Planet (Under Construction)</item>
         <item >Orbit (x, y) Calculator (Under Construction)</item>
         <item >Distance Calculator (Under Construction)</item>
         <item >Sitter PW Manager (Under Construction)</item>
         <item >Settings / Preferences (Under Construction)</item>
         <item >About us / Credits (Under Construction)</item>
         <item >Donate (Under Construction)</item>
+        <item >Exit</item>
     </string-array>
     
     <!-- Nav Drawer List Item Icons -->
@@ -44,6 +45,7 @@
         <item>@drawable/ic_launcher</item>
         <item>@drawable/ic_launcher</item>
         <item>@drawable/ic_launcher</item>
+        <item>@drawable/exit_x</item>
     </array>
     
     <!-- Content Description -->
