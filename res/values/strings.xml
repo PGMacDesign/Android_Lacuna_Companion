@@ -4,5 +4,50 @@
     <string name="app_name">Lacuna Companion</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Log Out / In</item>
+        <item >Mail (Under Construction)</item>
+        <item >Upgrade / Build queue (Under Construction)</item>
+        <item >My Planets (Under Construction)</item>
+        <item >Web Links (Under Construction)</item>
+        <item >Ships Guide (Under Construction)</item>
+        <item >Buildings Guide (Under Construction)</item>
+        <item >Lookup Planet Information (Under Construction)</item>
+        <item >Orbit (x, y) Calculator (Under Construction)</item>
+        <item >Distance Calculator (Under Construction)</item>
+        <item >Sitter PW Manager (Under Construction)</item>
+        <item >Settings / Preferences (Under Construction)</item>
+        <item >About us / Credits (Under Construction)</item>
+        <item >Donate (Under Construction)</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>    
+    
 
 </resources>

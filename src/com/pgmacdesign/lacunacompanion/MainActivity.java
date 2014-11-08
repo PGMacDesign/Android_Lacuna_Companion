@@ -14,6 +14,32 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 	
+	/*
+	
+	Order of the Slider Nav bar:
+	0) Home
+	1) Log out / in
+	2) Mail (Add a still under construction notice to this)
+	3) Upgrade / Build queue
+	4) List of planets and resources per hour
+	5) Web Links (IE the wiki)
+	6) Ships Info
+	7) Building Info
+	8) Lookup Planet information
+	9) Orbit (x, y) Calculator
+	10) Distance Calculator
+	11) Sitter PW Manager
+	12) Settings / Preferences
+	13) About us / Credits (Don't forget Vas!)
+	14) Donate
+	
+	
+	Extras to add at some point
+	1) Notifications if a planet drops to negative happiness (IE notification bar)
+	2) Mail in the correspondence tab (What people look for anyway)
+	 */
+	
+	
 	//Shared Preferences
 	public static final String PREFS_NAME = "RSRToolboxData";	
 	SharedPrefs sp = new SharedPrefs();
