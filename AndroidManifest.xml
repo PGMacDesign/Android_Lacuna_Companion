@@ -37,8 +37,32 @@
             android:name=".MainActivity"
             android:label="Main Activity"  >
         </activity>           
+      
+        <!-- This activity is for STUFFFFFFFFFFFF-->
+        <activity       
+            android:name=".client.ClientSide"
+            android:label="Main Client"  >
+        </activity>  
         
+        <!-- This activity is for STUFFFFFFFFFFFF-->
+        <activity       
+            android:name=".client.JsonParser"
+            android:label="JSON Parser"  >
+        </activity>  
         
+        <!-- This activity is for STUFFFFFFFFFFFF-->
+        <activity       
+            android:name=".client.Library"
+            android:label="Library"  >
+        </activity>  
+        
+        <!-- This activity is for STUFFFFFFFFFFFF-->
+        <activity       
+            android:name=".client.Login"
+            android:label="Logging In"  >
+        </activity>  
+        
+
         
         
         

@@ -55,7 +55,8 @@ MediaPlayer ourIntroSong, doorClose; //Doorclose not used at this point, will se
 					String error_in_splash = e01.toString(); //For Debugging purposes
 					e01.printStackTrace();
 				} finally {
-					Intent openMain = new Intent(Splash.this, MainActivity.class);
+					//Intent openMain = new Intent(Splash.this, MainActivity.class);
+					Intent openMain = new Intent(Splash.this, com.pgmacdesign.lacunacompanion.client.Login.class);
 					startActivity(openMain);
 				}
 			}

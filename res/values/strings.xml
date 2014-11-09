@@ -4,8 +4,26 @@
     <string name="app_name">Lacuna Companion</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="menu_settings">Settings</string>    
     <string name="drawer_open">Slider Menu Opened</string>
     <string name="drawer_close">Slider Menu Closed</string>
+    <string name="title_activity_login">Login</string>
+    <string name="login">Login</string>
+    <string name="title_activity_planet_view">PlanetView</string>
+    <string name="resInfoTitle">Resource Info</string>
+    <string name="blank"></string>
+    <string name="logout">Logout</string>
+    <string name="selectDifPlanet">Change Planet</string>
+    <string name="title_activity_planet_buildings_view">PlanetBuildingsView</string>
+    <string name="empireName">Empire Name</string>
+    <string name="passWord">Empire Password</string>
+    <string name="goBack">Go Back</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="empire">Empire</string>
+    <string name="mail">Mail</string>
+    <string name="title_activity_mail">Mail</string>
+    <string name="title_activity_view_mail">ViewMail</string>
+    <string name="title_activity_buildings_wrapper">BuildingsWrapper</string>    
     
     <!-- Nav Drawer Menu Items -->
     <string-array name="nav_drawer_items">
@@ -48,6 +66,15 @@
         <item>@drawable/exit_x</item>
     </array>
     
+    <string-array name="serverOptions">
+        <item >Select Server</item>
+        <item >US1</item>
+        <item >PT</item>
+    </string-array>    
+    
+    <string-array name="planetOptions">
+    </string-array>
+        
     <!-- Content Description -->
     <string name="desc_list_item_icon">Item Icon</string>    
     

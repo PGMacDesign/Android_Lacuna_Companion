@@ -76,6 +76,24 @@ public class MainActivity extends Activity {
 	Extras to add at some point
 	1) Notifications if a planet drops to negative happiness (IE notification bar)
 	2) Mail in the correspondence tab (What people look for anyway)
+	3) Keep a rolling counter of RPC usage somewhere
+	4) Docked ship count and breakdown of ship types
+	5) Ships in transit (incoming and outgoing)
+	6) Recall all ships option
+	7) Recall all spies option
+	8) Upgrade progress via a status bar and the respective timer left
+	9) On planet info: add plots, water, orbit, and breakdown of ore (composition)
+	10) Empire boosts (Show and extend)
+	11) View medals
+	12) View species stats / affinities
+	13) Rename planets
+	14) Change planets / View planets / View SS via a spinner
+	15) In mail, add select all function 
+	16) Add link to in-game tutorial
+	17) Add link to support (forums)
+	18) Add a stats function (like the rankings in-game)
+	19) Tips (like the ones at login, should be 48ish of them)
+	20) Widgets for Planet build queue (IE, 001 Silmarilos will be done in 5d 4h 30m)
 	 */
 	
 	private DrawerLayout mDrawerLayout;
@@ -136,6 +154,7 @@ public class MainActivity extends Activity {
         }
 		
 	}
+	
 	//Initialize Variables
 	private void Initialize(){
 		
@@ -192,7 +211,6 @@ public class MainActivity extends Activity {
         // Donate
         navDrawerItems.add(new NavDrawerItem(navMenuTitles[15], navMenuIcons.getResourceId(15, -1)));   
          
- 
         // Recycle the typed array
         navMenuIcons.recycle();
  
@@ -203,11 +221,18 @@ public class MainActivity extends Activity {
         adapter = new NavDrawerListAdapter(getApplicationContext(),
                 navDrawerItems);
         mDrawerList.setAdapter(adapter);
- 
+
+        try {
+        	L.m("Line 226");
+        } catch (Exception e){
+        	L.m(e.toString());
+        }
+
+    	L.m("Line 231");
         // enabling action bar app icon and behaving it as toggle button
         getActionBar().setDisplayHomeAsUpEnabled(true);
+    	L.m("Line 234");
         getActionBar().setHomeButtonEnabled(true);
-        
         L.m("Initialization Complete");
 	}
 
@@ -260,7 +285,7 @@ public class MainActivity extends Activity {
 		//Update the main content by replacing fragments
 		Fragment fragment = null;
 
-		switch (position) {  //NONE OF THE FRAGMENTS ARE GETTING CALLED!!!
+		switch (position) { 
 		case 0:
 			fragment = new HomeFragment();
 			break;
@@ -337,6 +362,7 @@ public class MainActivity extends Activity {
 			mDrawerList.setSelection(position);
 			setTitle(navMenuTitles[position]);
 			mDrawerLayout.closeDrawer(mDrawerList);
+			
 		} else {
 			//Fragment could not be created
 			L.m("MainActivity", "Error in creating fragment");
@@ -376,7 +402,4 @@ public class MainActivity extends Activity {
 	}
 
 
-		
-
-	
 }

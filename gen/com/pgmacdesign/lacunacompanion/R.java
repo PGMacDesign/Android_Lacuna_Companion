@@ -16,6 +16,8 @@ public final class R {
         /**  Nav Drawer Menu Items 
          */
         public static final int nav_drawer_items=0x7f080000;
+        public static final int planetOptions=0x7f080003;
+        public static final int serverOptions=0x7f080002;
     }
     public static final class attr {
     }
@@ -196,53 +198,71 @@ public final class R {
         public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
-        public static final int counter_bg=0x7f020000;
-        public static final int exit_x=0x7f020001;
-        public static final int ic_drawer=0x7f020002;
-        public static final int ic_drawer1=0x7f020003;
-        public static final int ic_drawer2=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int lacuna_expanse_picture_1=0x7f020006;
-        public static final int list_item_bg_normal=0x7f020007;
-        public static final int list_item_bg_pressed=0x7f020008;
-        public static final int list_selector=0x7f020009;
-        public static final int pgmacdesign_logo_silver_square=0x7f02000a;
-        public static final int tle_picture=0x7f02000b;
-        public static final int tle_picture_2=0x7f02000c;
+        public static final int bg_image=0x7f020000;
+        public static final int counter_bg=0x7f020001;
+        public static final int energy=0x7f020002;
+        public static final int exit_x=0x7f020003;
+        public static final int food=0x7f020004;
+        public static final int ic_drawer=0x7f020005;
+        public static final int ic_drawer1=0x7f020006;
+        public static final int ic_drawer2=0x7f020007;
+        public static final int ic_launcher=0x7f020008;
+        public static final int lacuna_button=0x7f020009;
+        public static final int lacuna_expanse_picture_1=0x7f02000a;
+        public static final int lacuna_section=0x7f02000b;
+        public static final int list_item_bg_normal=0x7f02000c;
+        public static final int list_item_bg_pressed=0x7f02000d;
+        public static final int list_selector=0x7f02000e;
+        public static final int ore=0x7f02000f;
+        public static final int pgmacdesign_logo_silver_square=0x7f020010;
+        public static final int splash_screen=0x7f020011;
+        public static final int tab=0x7f020012;
+        public static final int tle_picture=0x7f020013;
+        public static final int tle_picture_2=0x7f020014;
+        public static final int waste=0x7f020015;
+        public static final int water=0x7f020016;
     }
     public static final class id {
-        public static final int action_settings=0x7f0b0008;
-        public static final int counter=0x7f0b0005;
-        public static final int drawer_layout=0x7f0b0000;
-        public static final int frame_container=0x7f0b0001;
-        public static final int icon=0x7f0b0003;
-        public static final int list_slidermenu=0x7f0b0002;
-        public static final int textView1=0x7f0b0007;
-        public static final int title=0x7f0b0004;
-        public static final int txtLabel=0x7f0b0006;
+        public static final int action_settings=0x7f0b000e;
+        public static final int counter=0x7f0b000a;
+        public static final int drawer_layout=0x7f0b0005;
+        public static final int empireNameField=0x7f0b0000;
+        public static final int frame_container=0x7f0b0006;
+        public static final int icon=0x7f0b0008;
+        public static final int list_slidermenu=0x7f0b0007;
+        public static final int loginButton=0x7f0b0003;
+        public static final int menu_settings=0x7f0b000d;
+        public static final int passWordField=0x7f0b0001;
+        public static final int selectServer=0x7f0b0002;
+        public static final int textView1=0x7f0b000c;
+        public static final int title=0x7f0b0009;
+        public static final int txtLabel=0x7f0b000b;
+        public static final int versionInformation=0x7f0b0004;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int drawer_list_item=0x7f030001;
-        public static final int fragment_about_us_credits=0x7f030002;
-        public static final int fragment_building_info=0x7f030003;
-        public static final int fragment_distance_calculator=0x7f030004;
-        public static final int fragment_donate=0x7f030005;
-        public static final int fragment_home=0x7f030006;
-        public static final int fragment_list_planets=0x7f030007;
-        public static final int fragment_log_out_in=0x7f030008;
-        public static final int fragment_lookup_planet=0x7f030009;
-        public static final int fragment_mail=0x7f03000a;
-        public static final int fragment_orbit_x_y_calculator=0x7f03000b;
-        public static final int fragment_settings_preferences=0x7f03000c;
-        public static final int fragment_ships_info=0x7f03000d;
-        public static final int fragment_sitter_pw_manager=0x7f03000e;
-        public static final int fragment_upgrade_build_queue=0x7f03000f;
-        public static final int fragment_web_links=0x7f030010;
-        public static final int splash=0x7f030011;
+        public static final int activity_login=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int drawer_list_item=0x7f030002;
+        public static final int fragment_about_us_credits=0x7f030003;
+        public static final int fragment_building_info=0x7f030004;
+        public static final int fragment_distance_calculator=0x7f030005;
+        public static final int fragment_donate=0x7f030006;
+        public static final int fragment_home=0x7f030007;
+        public static final int fragment_list_planets=0x7f030008;
+        public static final int fragment_log_out_in=0x7f030009;
+        public static final int fragment_lookup_planet=0x7f03000a;
+        public static final int fragment_mail=0x7f03000b;
+        public static final int fragment_orbit_x_y_calculator=0x7f03000c;
+        public static final int fragment_settings_preferences=0x7f03000d;
+        public static final int fragment_ships_info=0x7f03000e;
+        public static final int fragment_sitter_pw_manager=0x7f03000f;
+        public static final int fragment_upgrade_build_queue=0x7f030010;
+        public static final int fragment_web_links=0x7f030011;
+        public static final int splash=0x7f030012;
     }
     public static final class menu {
-        public static final int main=0x7f0a0000;
+        public static final int activity_login=0x7f0a0000;
+        public static final int main=0x7f0a0001;
     }
     public static final class raw {
         public static final int cinematic_impact=0x7f040000;
@@ -250,12 +270,30 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f070002;
         public static final int app_name=0x7f070000;
+        public static final int blank=0x7f07000a;
         /**  Content Description 
          */
-        public static final int desc_list_item_icon=0x7f070005;
-        public static final int drawer_close=0x7f070004;
-        public static final int drawer_open=0x7f070003;
+        public static final int desc_list_item_icon=0x7f070017;
+        public static final int drawer_close=0x7f070005;
+        public static final int drawer_open=0x7f070004;
+        public static final int empire=0x7f070012;
+        public static final int empireName=0x7f07000e;
+        public static final int goBack=0x7f070010;
         public static final int hello_world=0x7f070001;
+        public static final int login=0x7f070007;
+        public static final int logout=0x7f07000b;
+        public static final int mail=0x7f070013;
+        public static final int menu_settings=0x7f070003;
+        public static final int passWord=0x7f07000f;
+        public static final int resInfoTitle=0x7f070009;
+        public static final int selectDifPlanet=0x7f07000c;
+        public static final int title_activity_buildings_wrapper=0x7f070016;
+        public static final int title_activity_login=0x7f070006;
+        public static final int title_activity_mail=0x7f070014;
+        public static final int title_activity_planet_buildings_view=0x7f07000d;
+        public static final int title_activity_planet_view=0x7f070008;
+        public static final int title_activity_splash=0x7f070011;
+        public static final int title_activity_view_mail=0x7f070015;
     }
     public static final class style {
         /** 
