@@ -19,8 +19,12 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
+
+import com.pgmacdesign.lacunacompanion.SharedPrefs;
+
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.Toast;
@@ -35,7 +39,7 @@ public class ClientSide {
 	public static String  SESSION_ID;
 	public static String TAG = "Lacuna Expanse - Debug";
 	
-	// Some items to cache.
+	// Some items to cache. Will use later
 	public static JSONObject STATUS;
 	
 	public static void login(String empireName, String empirePass, String server, String apiKey) {
@@ -151,7 +155,7 @@ public class ClientSide {
 				
 				JSONObject response = new JSONObject(sb.toString());
 				// \n to make it look pretty. :P
-				Log.d("Lacuna Expanse - Debug", "Got server response:\n" + response.toString());
+				Log.d("Client Connect", "Got server response:\n" + response.toString());
 				in.close();
 				
 				// Now check if the server returned a result or an error.

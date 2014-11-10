@@ -233,11 +233,11 @@ public final class R {
         public static final int loginButton=0x7f0b0003;
         public static final int menu_settings=0x7f0b000d;
         public static final int passWordField=0x7f0b0001;
+        public static final int remember_me_login=0x7f0b0004;
         public static final int selectServer=0x7f0b0002;
         public static final int textView1=0x7f0b000c;
         public static final int title=0x7f0b0009;
         public static final int txtLabel=0x7f0b000b;
-        public static final int versionInformation=0x7f0b0004;
     }
     public static final class layout {
         public static final int activity_login=0x7f030000;
@@ -273,7 +273,7 @@ public final class R {
         public static final int blank=0x7f07000a;
         /**  Content Description 
          */
-        public static final int desc_list_item_icon=0x7f070017;
+        public static final int desc_list_item_icon=0x7f070018;
         public static final int drawer_close=0x7f070005;
         public static final int drawer_open=0x7f070004;
         public static final int empire=0x7f070012;
@@ -287,6 +287,7 @@ public final class R {
         public static final int passWord=0x7f07000f;
         public static final int resInfoTitle=0x7f070009;
         public static final int selectDifPlanet=0x7f07000c;
+        public static final int shared_preferences_name=0x7f070017;
         public static final int title_activity_buildings_wrapper=0x7f070016;
         public static final int title_activity_login=0x7f070006;
         public static final int title_activity_mail=0x7f070014;

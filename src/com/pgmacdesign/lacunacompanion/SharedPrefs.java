@@ -29,7 +29,7 @@ public class SharedPrefs {
 	 * 2) Which 'column' the data is being entered to
 	 * 3) Value To Enter
 	 */
-	Editor putDouble (final Editor edit, final String key, final double value){
+	public Editor putDouble (final Editor edit, final String key, final double value){
 		return edit.putLong(key, Double.doubleToRawLongBits(value));
 	}
 	
@@ -40,7 +40,7 @@ public class SharedPrefs {
 	 * 2) Which 'column' the data is being pulled from
 	 * 3) A Default value that will be returned if no value exists there
 	 */
-	double getDouble(final SharedPreferences prefs, final String key, final double defaultValue){
+	public double getDouble(final SharedPreferences prefs, final String key, final double defaultValue){
 		return Double.longBitsToDouble(prefs.getLong(key, Double.doubleToLongBits(defaultValue)));
 	}
 	
@@ -51,7 +51,7 @@ public class SharedPrefs {
 	 * 2) Which 'column' the data is being entered to
 	 * 3) Value To Enter
 	 */
-	Editor putInt (final Editor edit, final String key, final int value){
+	public Editor putInt (final Editor edit, final String key, final int value){
 		return edit.putInt(key, (value));
 	}
 	
@@ -62,7 +62,7 @@ public class SharedPrefs {
 	 * 2) Which 'column' the data is being pulled from
 	 * 3) A Default value that will be returned if no value exists there
 	 */
-	double getInt(final SharedPreferences prefs, final String key, final int defaultValue){
+	public double getInt(final SharedPreferences prefs, final String key, final int defaultValue){
 		return prefs.getInt(key, (defaultValue));
 	}	
 	
@@ -73,7 +73,7 @@ public class SharedPrefs {
 	 * 2) Which 'column' the data is being entered to
 	 * 3) Value To Enter
 	 */
-	Editor putString (final Editor edit, final String key, final String value){
+	public Editor putString (final Editor edit, final String key, final String value){
 		return edit.putString(key, value);
 	}
 	
@@ -84,9 +84,30 @@ public class SharedPrefs {
 	 * 2) Which 'column' the data is being pulled from
 	 * 3) A Default value that will be returned if no value exists there
 	 */
-	String getString(final SharedPreferences prefs, final String key, final String defaultValue){
+	public String getString(final SharedPreferences prefs, final String key, final String defaultValue){
 		return prefs.getString(key, defaultValue);
 	}
 	
+	/*
+	 * This allows Booleans to be entered into the data field.  
+	 * IE) sp.putBoolean(editor, "is_employed", true);  @Params,
+	 * 1) Editor being used 
+	 * 2) Which 'column' the data is being entered to
+	 * 3) Value To Enter
+	 */
+	public Editor putBoolean (final Editor edit, final String key, final boolean value){
+		return edit.putBoolean(key, value);
+	}
+	
+	/*
+	 * This allows Strings to be entered into the data field.  
+	 * IE) sp.getBoolean(settings, "is_employed", false);  @Params,
+	 * 1) Editor being used 
+	 * 2) Which 'column' the data is being entered to
+	 * 3) Value To Enter
+	 */
+	public boolean getBoolean (final SharedPreferences prefs, final String key, final boolean defaultValue){
+		return prefs.getBoolean(key, defaultValue);
+	}	
 	
 }

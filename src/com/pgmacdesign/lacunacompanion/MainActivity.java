@@ -114,7 +114,7 @@ public class MainActivity extends Activity {
     private NavDrawerListAdapter adapter;
 	
 	//Shared Preferences
-	public static final String PREFS_NAME = "RSRToolboxData";	
+	public static final String PREFS_NAME = "LacunaCompanion";
 	SharedPrefs sp = new SharedPrefs();
 	SharedPreferences settings;
 	SharedPreferences.Editor editor;
