@@ -223,7 +223,7 @@ public final class R {
         public static final int water=0x7f020016;
     }
     public static final class id {
-        public static final int action_settings=0x7f0b000e;
+        public static final int action_settings=0x7f0b0013;
         public static final int counter=0x7f0b000a;
         public static final int drawer_layout=0x7f0b0005;
         public static final int empireNameField=0x7f0b0000;
@@ -231,11 +231,16 @@ public final class R {
         public static final int icon=0x7f0b0008;
         public static final int list_slidermenu=0x7f0b0007;
         public static final int loginButton=0x7f0b0003;
-        public static final int menu_settings=0x7f0b000d;
+        public static final int mailFilter=0x7f0b000e;
+        public static final int mailHeading=0x7f0b000c;
+        public static final int mailPage=0x7f0b000d;
+        public static final int mails=0x7f0b000f;
+        public static final int menu_settings=0x7f0b0012;
+        public static final int messageBody=0x7f0b0011;
         public static final int passWordField=0x7f0b0001;
         public static final int remember_me_login=0x7f0b0004;
         public static final int selectServer=0x7f0b0002;
-        public static final int textView1=0x7f0b000c;
+        public static final int textView1=0x7f0b0010;
         public static final int title=0x7f0b0009;
         public static final int txtLabel=0x7f0b000b;
     }
@@ -259,6 +264,7 @@ public final class R {
         public static final int fragment_upgrade_build_queue=0x7f030010;
         public static final int fragment_web_links=0x7f030011;
         public static final int splash=0x7f030012;
+        public static final int view_mail=0x7f030013;
     }
     public static final class menu {
         public static final int activity_login=0x7f0a0000;
