@@ -62,8 +62,27 @@
             android:label="Logging In"  >
         </activity>  
         
-
+        <!-- SEPARATED OUT -->
         
+        <!-- This activity is for STUFFFFFFFFFFFF-->
+        <activity       
+            android:name=".module.inbox.ViewMail"
+            android:label="Logging In"  >
+        </activity>  
+        
+        <!-- This activity is for STUFFFFFFFFFFFF-->
+        <activity       
+            android:name=".module.inbox.ViewInbox"
+            android:label="Logging In"  >
+        </activity> 
+        
+        <!-- This activity is for STUFFFFFFFFFFFF-->
+        <activity       
+            android:name=".module.inbox.Mail"
+            android:label="Logging In"  >
+        </activity>         
+       
+        <!-- SEPARATED OUT -->
         
         
     </application>
