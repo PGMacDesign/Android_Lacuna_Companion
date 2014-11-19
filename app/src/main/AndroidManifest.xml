@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.pgmacdesign.lacunacompanion"
+          android:versionCode="1"
+          android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- First is the splash screen -->
+        <activity
+            android:name="com.pgmacdesign.lacunacompanion.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- This activity is for shared preferences-->
+        <activity
+            android:name=".SharedPrefs"
+            android:label="SharedPrefs"  >
+        </activity>
+
+        <!-- This activity is for STUFFFFFFFFFFFF-->
+        <activity
+            android:name=".MainActivity"
+            android:label="Main Activity"  >
+        </activity>
+
+        <!-- This activity is for STUFFFFFFFFFFFF-->
+        <activity
+            android:name=".client.ClientSide"
+            android:label="Main Client"  >
+        </activity>
+
+        <!-- This activity is for STUFFFFFFFFFFFF-->
+        <activity
+            android:name=".client.JsonParser"
+            android:label="JSON Parser"  >
+        </activity>
+
+        <!-- This activity is for STUFFFFFFFFFFFF-->
+        <activity
+            android:name=".client.Library"
+            android:label="Library"  >
+        </activity>
+
+        <!-- This activity is for STUFFFFFFFFFFFF-->
+        <activity
+            android:name=".client.Login"
+            android:label="Logging In"  >
+        </activity>
+
+        <!-- SEPARATED OUT -->
+
+        <!-- This activity is for STUFFFFFFFFFFFF-->
+        <activity
+            android:name=".module.inbox.ViewMail"
+            android:label="Logging In"  >
+        </activity>
+
+        <!-- This activity is for STUFFFFFFFFFFFF-->
+        <activity
+            android:name=".module.inbox.ViewInbox"
+            android:label="Logging In"  >
+        </activity>
+
+        <!-- This activity is for STUFFFFFFFFFFFF-->
+        <activity
+            android:name=".module.inbox.Mail"
+            android:label="Logging In"  >
+        </activity>
+
+        <!-- SEPARATED OUT -->
+
+
+    </application>
+
+</manifest>

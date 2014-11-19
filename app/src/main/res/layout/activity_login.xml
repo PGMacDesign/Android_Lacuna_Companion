@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tab"
+        android:text="@string/login"
+        android:textColor="#FFD800"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.89"
+        android:background="@drawable/lacuna_section" >
+
+        <EditText
+            android:id="@+id/empireNameField"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="left"
+            android:ems="10"
+            android:hint="@string/empireName"
+            android:inputType="text"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/passWordField"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empireNameField"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="left"
+            android:ems="10"
+            android:hint="@string/passWord"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+
+        <Spinner
+            android:id="@+id/selectServer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/passWordField"
+            android:layout_centerHorizontal="true"
+            android:entries="@array/serverOptions" />
+        <!--
+GOES ABOVE
+style="@style/LacunaButton"
+        -->
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/selectServer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp"
+            android:text="@string/login" />
+
+        <CheckBox
+            android:id="@+id/remember_me_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/loginButton"
+            android:layout_below="@+id/selectServer"
+            android:layout_marginTop="22dp"
+            android:text="Remember Me" />
+
+    </RelativeLayout>
+
+</LinearLayout>
